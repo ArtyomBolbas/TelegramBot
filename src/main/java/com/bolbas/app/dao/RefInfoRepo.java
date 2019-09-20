@@ -8,7 +8,7 @@ import com.bolbas.app.entity.ReferenceInformation;
 public interface RefInfoRepo extends CrudRepository<ReferenceInformation, Long> {
 
 	ReferenceInformation findByCity(String city);
-	
+
 	@Transactional
 	Long deleteByCity(String city);
 

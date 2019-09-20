@@ -85,7 +85,7 @@ public class RefInfoController {
 			return NO_INFO;
 		}
 		ReferenceInformation referenceInformation = refInfoRepo.findByCity(refInfo.getCity());
-		
+
 		if (referenceInformation == null) {
 			answer = NOT_EXISTS;
 		} else {
@@ -132,6 +132,10 @@ public class RefInfoController {
 			refInfoRepo.save(refInfo);
 		}
 		return mode + " - " + refInfo.toString();
+	}
+
+	public ReferenceInformation getFromDB(String message) {
+		return refInfoRepo.findByCity(message);
 	}
 
 }
