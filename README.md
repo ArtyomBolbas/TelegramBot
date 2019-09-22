@@ -13,7 +13,7 @@
   
   1. Operation "Add:"	
    + localhost:8080/addCity
-   + method: POST 
+   + method: ***POST*** 
   ```
   {
     "city": "Minsk",
@@ -23,11 +23,11 @@
     
   2. Operation "Get info about the city:"
    + localhost:8080/getDisc?city=Minsk
-   + method: GET
+   + method: ***GET***
      
   3. Operation "Remove:"
    + localhost:8080/removeCity
-   + method: DELETE
+   + method: ***DELETE***
   ```
   {
     "city": "Minsk"
@@ -35,7 +35,7 @@
   ``` 
   4. Operation "Update info about city:"
    + localhost:8080/updateDesc
-   + method: PUT
+   + method: ***PUT***
   ```
   {
    "city": "Minsk",
@@ -44,7 +44,7 @@
   ``` 
   5. Operation "Remove the description of the city:"
    + localhost:8080/removeDesc
-   + method: DELETE
+   + method: ***DELETE***
   ```
   {
    "city": "Minsk"
@@ -55,5 +55,5 @@
       spring.jpa.hibernate.ddl-auto=update
       spring.datasource.url=jdbc:mysql://localhost:3306/telega?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
       spring.datasource.username=root
-      spring.datasource.password=1111  (перед сборкой в пропертях указать СВОЙ пароль)
+      spring.datasource.password=1111  ***(перед сборкой в пропертях указать СВОЙ пароль)***
       spring.jpa.generate-ddl=true
