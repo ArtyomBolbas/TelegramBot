@@ -55,5 +55,5 @@
       spring.jpa.hibernate.ddl-auto=update
       spring.datasource.url=jdbc:mysql://localhost:3306/telega?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
       spring.datasource.username=root
-      spring.datasource.password=1111  ***(перед сборкой в пропертях указать СВОЙ пароль)***
+      spring.datasource.password=1111  <i>(перед сборкой в пропертях указать СВОЙ пароль)</i>
       spring.jpa.generate-ddl=true
