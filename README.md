@@ -11,7 +11,7 @@
   ###### package command: _mvn clean package_
   ###### run project in the command line: _java -jar target/TelegaBot-0.0.1-SNAPSHOT.jar_
   
-  1. Operation <ins>"Add:"</ins>	
+  1. Operation "Add:"	
    + localhost:8080/addCity
    + method: POST 
   ```
@@ -21,35 +21,35 @@
   }
   ```
     
-     2. oper get info about the city:
-     - getDisc;
-     localhost:8080/getDisc?city=Minsk
-     method: GET
+   2. Operation "Get info about the city:"
+    + localhost:8080/getDisc?city=Minsk
+    + method: GET
      
-     3. oper remove:
-     - removeCity;
-     localhost:8080/removeCity
-     method: DELETE
-     {
-       "city": "Minsk"
-     }
-      
-     4. oper update info about city:
-     - updateDesc;
-     localhost:8080/updateDesc
-     method: PUT
-     {
-       "city": "Minsk",
-       "description": "It's capital"
-     }
-      
-     5.   oper remove the description of the city:
-     - removeDesc;
-     localhost:8080/removeDesc
-     method: DELETE
-     {
-       "city": "Minsk"
-     }
+   3. Operation "Remove:"
+    + localhost:8080/removeCity
+    + method: DELETE
+   ```
+   {
+     "city": "Minsk"
+   }
+   ``` 
+   4. Operation "Update info about city:"
+     + localhost:8080/updateDesc
+     + method: PUT
+   ```
+   {
+    "city": "Minsk",
+     "description": "It's capital"
+   }
+   ``` 
+   5. Operation "Remove the description of the city:"
+     + localhost:8080/removeDesc
+     + method: DELETE
+   ```
+   {
+     "city": "Minsk"
+   }
+   ``` 
     
     properties:
       spring.jpa.hibernate.ddl-auto=update
