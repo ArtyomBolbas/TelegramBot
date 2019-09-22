@@ -1,6 +1,7 @@
 # TelegramBot
 
       name - cityInfoBot
+      
       Bot name (username) - @cityInfoSpring_bot 
       token - 976278621:AAEZPQOUoSMLRvB517169FPex741wwcfuYs
   
@@ -10,10 +11,12 @@
      1. oper add:	
      localhost:8080/addCity
      method: POST 
-     '{
+     ```
+     {
        "city": "Minsk",
        "description": "It's a very wonderful city!"
-     }'
+     }
+     ```
     
      2. oper get info about the city:
      - getDisc;
