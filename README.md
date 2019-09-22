@@ -6,7 +6,7 @@
   
   ##### Token - **976278621:AAEZPQOUoSMLRvB517169FPex741wwcfuYs**
   
-# Command
+## Commands
   
   ###### package command: _mvn clean package_
   ###### run project in the command line: _java -jar target/TelegaBot-0.0.1-SNAPSHOT.jar_
