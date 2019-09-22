@@ -58,4 +58,4 @@
       spring.datasource.password=1111  
       spring.jpa.generate-ddl=true
       
- &#x1F536;(перед сборкой в пропертях указать СВОЙ пароль)
+ ***(перед сборкой в "properties:" указать СВОЙ пароль)***
