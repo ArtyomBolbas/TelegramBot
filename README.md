@@ -11,7 +11,7 @@
   ###### package command: _mvn clean package_
   ###### run project in the command line: _java -jar target/TelegaBot-0.0.1-SNAPSHOT.jar_
   
-  1. Operation Add:	
+  1. Operation <u>Add:</u>	
    + localhost:8080/addCity
    + method: POST 
   ```
