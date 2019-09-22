@@ -11,15 +11,15 @@
   ###### package command: _mvn clean package_
   ###### run project in the command line: _java -jar target/TelegaBot-0.0.1-SNAPSHOT.jar_
   
-     1. oper add:	
-     localhost:8080/addCity
-     method: POST 
-     ```
-     {
-       "city": "Minsk",
-       "description": "It's a very wonderful city!"
-     }
-     ```
+  1. oper add:	
+  localhost:8080/addCity
+  method: POST 
+  ```
+  {
+    "city": "Minsk",
+    "description": "It's a very wonderful city!"
+  }
+  ```
     
      2. oper get info about the city:
      - getDisc;
