@@ -1,9 +1,9 @@
 # TelegramBot
 
-      name - cityInfoBot
+  name - cityInfoBot
       
-      Bot name (username) - @cityInfoSpring_bot 
-      token - 976278621:AAEZPQOUoSMLRvB517169FPex741wwcfuYs
+  Bot name (username) - @cityInfoSpring_bot 
+  token - 976278621:AAEZPQOUoSMLRvB517169FPex741wwcfuYs
   
       package command: mvn clean package
       run project in the command line: java -jar target/TelegaBot-0.0.1-SNAPSHOT.jar
