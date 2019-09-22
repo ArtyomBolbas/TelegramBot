@@ -21,35 +21,35 @@
   }
   ```
     
-   2. Operation "Get info about the city:"
-    + localhost:8080/getDisc?city=Minsk
-    + method: GET
+  2. Operation "Get info about the city:"
+   + localhost:8080/getDisc?city=Minsk
+   + method: GET
      
-   3. Operation "Remove:"
-    + localhost:8080/removeCity
-    + method: DELETE
-   ```
-   {
-     "city": "Minsk"
-   }
-   ``` 
-   4. Operation "Update info about city:"
-     + localhost:8080/updateDesc
-     + method: PUT
-   ```
-   {
-    "city": "Minsk",
-     "description": "It's capital"
-   }
-   ``` 
-   5. Operation "Remove the description of the city:"
-     + localhost:8080/removeDesc
-     + method: DELETE
-   ```
-   {
-     "city": "Minsk"
-   }
-   ``` 
+  3. Operation "Remove:"
+   + localhost:8080/removeCity
+   + method: DELETE
+  ```
+  {
+    "city": "Minsk"
+  }
+  ``` 
+  4. Operation "Update info about city:"
+   + localhost:8080/updateDesc
+   + method: PUT
+  ```
+  {
+   "city": "Minsk",
+   "description": "It's capital"
+  }
+  ``` 
+  5. Operation "Remove the description of the city:"
+   + localhost:8080/removeDesc
+   + method: DELETE
+  ```
+  {
+   "city": "Minsk"
+  }
+  ``` 
     
     properties:
       spring.jpa.hibernate.ddl-auto=update
