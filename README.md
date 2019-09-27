@@ -59,3 +59,4 @@
       spring.jpa.generate-ddl=true
       
  ***(перед сборкой в "properties:" указать СВОЙ пароль!!!)***
+ ***before building app setting your password ("properties:****")***
